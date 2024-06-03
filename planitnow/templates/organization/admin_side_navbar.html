@@ -1,0 +1,93 @@
+<div class="sidebar sidebar-dark sidebar-fixed border-end" id="sidebar">
+    <div class="sidebar-header border-bottom">
+        <div class="sidebar-brand">
+            <p>Plan It Now</p>
+        </div>
+        <button class="btn-close d-lg-none" type="button" data-coreui-dismiss="offcanvas" data-coreui-theme="dark" aria-label="Close" onclick="coreui.Sidebar.getInstance(document.querySelector(&quot;#sidebar&quot;)).toggle()"></button>
+    </div>
+    <ul class="sidebar-nav" data-coreui="navigation" data-simplebar="">
+        <li class="nav-item"><a class="nav-link" href="{% url 'dashboard' %}">
+                <i class="nav-icon fas fa-tachometer-alt"></i> Dashboard<span
+                    class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
+        <li class="nav-title">Theme</li>
+        <li class="nav-item"><a class="nav-link" href="colors.html">
+                <i class="nav-icon fas fa-palette"></i> Colors</a></li>
+        <li class="nav-item"><a class="nav-link" href="typography.html">
+                <i class="nav-icon fas fa-pen-nib"></i> Typography</a></li>
+        <li class="nav-title">Components</li>
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                <i class="nav-icon fas fa-puzzle-piece"></i> Base</a>
+            <ul class="nav-group-items compact">
+                <li class="nav-item"><a class="nav-link" href="base/accordion.html">
+                    <i class="nav-icon fa fa-circle-o"></i>  Accordion</a></li>
+                <li class="nav-item"><a class="nav-link" href="base/breadcrumb.html">
+                    <i class="nav-icon fa fa-circle-o"></i> Breadcrumb</a></li>
+            </ul>
+        </li>
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                <i class="nav-icon fas fa-mouse-pointer"></i> Buttons</a>
+            <ul class="nav-group-items compact">
+                <li class="nav-item"><a class="nav-link" href="buttons/buttons.html">
+                    <i class="nav-icon fa fa-circle-o"></i> Buttons</a></li>
+                <li class="nav-item"><a class="nav-link" href="buttons/button-group.html">
+                    <i class="nav-icon fa fa-circle-o"></i> Buttons Group</a></li>
+                <li class="nav-item"><a class="nav-link" href="buttons/dropdowns.html"><span class="nav-icon">
+                    <i class="nav-icon fa fa-circle-o"></i> Dropdowns</a></li>
+            </ul>
+        </li>
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                <i class="nav-icon fas fa-forms"></i> Forms</a>
+            <ul class="nav-group-items compact">
+                <li class="nav-item"><a class="nav-link" href="forms/form-control.html">
+                    <i class="nav-icon fa fa-circle-o"></i> Form Control</a></li>
+                <li class="nav-item"><a class="nav-link" href="forms/select.html">
+                    <i class="nav-icon fa fa-circle-o"></i> Select</a></li>
+            </ul>
+        </li>
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                <i class="nav-icon fas fa-icons"></i> Icons</a>
+            <ul class="nav-group-items compact">
+                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-free.html">
+                    <i class="nav-icon fa fa-circle-o"></i> CoreUI Icons<span
+                            class="badge badge-sm bg-success ms-auto">Free</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-brand.html">
+                    <i class="nav-icon fa fa-circle-o"></i> CoreUI Icons - Brand</a></li>
+                <li class="nav-item"><a class="nav-link" href="icons/coreui-icons-flag.html">
+                    <i class="nav-icon fa fa-circle-o"></i> CoreUI Icons - Flag</a></li>
+            </ul>
+        </li>
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                <i class="nav-icon fas fa-bell"></i> Notifications</a>
+            <ul class="nav-group-items compact">
+                <li class="nav-item"><a class="nav-link" href="notifications/alerts.html">
+                    <i class="nav-icon fa fa-circle-o"></i> Alerts</a></li>
+                <li class="nav-item"><a class="nav-link" href="notifications/badge.html">
+                    <i class="nav-icon fa fa-circle-o"></i> Badge</a></li>
+            </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="widgets.html">
+                <i class="nav-icon fas fa-calculator"></i> Widgets<span
+                    class="badge badge-sm bg-info ms-auto">NEW</span></a></li>
+        <li class="nav-divider"></li>
+        <li class="nav-title">Extras</li>
+        <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">
+                <i class="nav-icon fas fa-star"></i> Pages</a>
+            <ul class="nav-group-items compact">
+                <li class="nav-item"><a class="nav-link" href="login.html" target="_top">
+                        <i class="nav-icon fas fa-sign-out-alt"></i> Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.html" target="_top">
+                        <i class="nav-icon fas fa-sign-out-alt"></i> Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="404.html" target="_top">
+                        <i class="nav-icon fas fa-bug"></i> Error 404</a></li>
+                <li class="nav-item"><a class="nav-link" href="500.html" target="_top">
+                        <i class="nav-icon fas fa-bug"></i> Error 500</a></li>
+            </ul>
+        </li>
+        <li class="nav-item mt-auto"><a class="nav-link" href="https://coreui.io/docs/templates/installation/"
+                target="_blank">
+                <i class="nav-icon fas fa-file-alt"></i> Docs</a></li>
+    </ul>
+    <div class="sidebar-footer border-top d-none d-md-flex">
+        <button class="sidebar-toggler" type="button" data-coreui-toggle="unfoldable"></button>
+    </div>
+</div>

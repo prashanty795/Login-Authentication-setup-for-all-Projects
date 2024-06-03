@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+{% include 'organization/admin_side_navbar.html' %}
+<div class="wrapper d-flex flex-column min-vh-100">
+    {% include 'organization/admin_dashboard_header.html' %}
+    <div class="dashboard-content px-4">
+        {% block dashboard_content %}
+
+            <h1>Welcome to Dashboard</h1>
+
+        {% endblock %}
+    </div>
+</div>
+
+{% endblock %}

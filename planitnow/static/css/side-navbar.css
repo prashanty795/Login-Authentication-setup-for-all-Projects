@@ -1,0 +1,26 @@
+.sidebar{
+    background: #212631;
+}
+
+.sidebar-toggler{
+    position: relative;
+    box-sizing: content-box;
+    width: var(--cui-sidebar-toggler-width);
+    height: var(--cui-sidebar-toggler-height);
+    /* padding: 0.25rem 0.25rem; */
+    background-color: transparent;
+    border: 0;
+    border-radius: 0.375rem;
+    margin-left: auto;
+}
+
+.nav-icon{
+    font-size: 2px;
+}
+
+.sidebar-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--cui-sidebar-padding-y) var(--cui-sidebar-padding-x);
+  }
